@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Hosted on GitHub</title>
+    <link rel="stylesheet" href="main-styles.css">
+    
+    <style>
+        /* Internal CSS Level: Overrides external body color */
+        h1 {
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            letter-spacing: 5px;
+        }
+        /* Specific project highlight */
+        .featured { border: 2px solid #00d2ff; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <header class="banner">
+        <h1>CREATIVE DEVELOPER</h1>
+    </header>
+
+    <main class="project-grid">
+        <div class="card">
+            <h3>Project One</h3>
+            <p>A web application built with HTML/CSS.</p>
+        </div>
+        <div class="card featured" style="background-color: #e3f2fd;">
+            <h3>Project Two</h3>
+            <p>This card uses <strong>inline styles</strong> for its background.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portfolio Hosted via GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
